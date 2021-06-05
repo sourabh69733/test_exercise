@@ -7,6 +7,7 @@ export default class CreateUser extends Component {
 
     this.onChangeUsername = this.onChangeUsername.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
+    // this.deleteUser = this.deleteUser.bind(this);
 
     this.state = {
       username: "",
@@ -32,6 +33,15 @@ export default class CreateUser extends Component {
       username: "",
     });
   }
+
+  // deleteUser(id) {
+  // axios
+  // .delete("http://localhost:5000/users/" + id)
+  // .then((response) => console.log(response.data));
+  // this.setState({
+  // username: this.state.users.filter((el) => el._id !== id),
+  // });
+  // }
 
   render() {
     return (

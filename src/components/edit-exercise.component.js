@@ -48,6 +48,7 @@ export default class EditExercise extends Component {
     this.setState({
       username: e.target.value,
     });
+    console.log(this.state);
   }
   onChangeDescription(e) {
     this.setState({
