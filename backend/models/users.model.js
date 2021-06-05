@@ -11,6 +11,11 @@ const userSchema = new Schema(
       trim: true,
       minlength: 3,
     },
+    googleId: String,
+    photosLink: Array,
+    email: String,
+    accessCode: String,
+    refreshCode: String,
   },
   {
     timestamps: true,

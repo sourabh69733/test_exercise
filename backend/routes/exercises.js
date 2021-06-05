@@ -52,4 +52,6 @@ router.route("/update/:id").post((req, res) => {
   });
 });
 
+// router.route("/exercise-test")
+
 module.exports = router;
