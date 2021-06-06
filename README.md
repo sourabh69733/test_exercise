@@ -26,4 +26,5 @@ Second Logic course exercise page: src\components\secondPageCourse.js
 To run project locally \
 Clone the project, then run npm install and go to src\index.js, here I have both page components,so just uncomment one to check.
 
-I have used Bootstrap for CSS and React.
+I have used Bootstrap library for CSS and React front-end library.
+
