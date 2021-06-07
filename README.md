@@ -2,8 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 It has mongo-db database and express for backend, react and bootstrap for front-end.
-
-Features are helpfull like 
+ 
 ## Available Scripts
 
 In the project directory, you can run:
@@ -37,7 +36,7 @@ It has backend folder for database and User Authorization,and express api for ex
 
 ### Uses cases and Features
 
-I have used Bootstrap library for CSS and React front-end library.
+I have used Bootstrap library for CSS and React front-end framework.
 
 Basically this Web-App has user creation for test Exercises, you can create new user or use old one to create text exercise. I have also implementated google Authorization and jwt Authorization using passport library, I am creating new features like time bouded tests and some interative exercise.
 
