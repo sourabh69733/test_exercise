@@ -1,10 +1,101 @@
-/* body {
-  background: fixed;
-  color: antiquewhite;
-  font-family: Verdana, Tahoma, sans-serif;
+.course-sidebar .inner {
+    position: fixed;
+    top: 0;
+    right: 50%;
+    width: 999px;
+    height: 100%;
+    margin-right: 499px;
+    background: #000;
+    background-color: rgb(0, 0, 0);
+    z-index: 299;
 }
-h1 {
-  font-family: Verdana, Tahoma;
-  font-weight: bold;
-  color: white;
-} */
+.first_character {
+    display: inline-block;
+    border-radius: 5px;
+    border:2.1px dotted black ;
+    width: 160px;
+    height: 250px;
+    position: relative;
+    text-align: center;
+    text-overflow: unset;
+    padding:10px;
+    margin :10px;
+    
+    
+}
+
+.b-sprite-art-and-design-drag-n-drop {
+            background-position: -367px -882px;
+            background-repeat: no-repeat;
+            overflow: hidden;
+            display: block;
+            text-indent: -9999px;
+            width: 168px;
+            height: 139px;
+        }
+#char1 {
+        width: 100px;
+        height: 200px;
+        /* margin: 1rem; */
+        left:560px;
+        cursor: move;
+        
+}
+
+#char2 {
+        width: 100px;
+        height: 200px;
+        /* margin: 1rem; */
+        left :400px;
+        cursor: move;
+        
+}
+
+#char3 {
+        width: 100px;
+        height: 200px;
+        /* margin: 1rem; */
+        left:200px;
+        cursor: move;
+        
+}
+#first_character {
+    width: 150px;
+    /* padding: 80px; */
+    border: 2px dotted black;
+    /* margin:3px; */
+    /* position: absolute; */
+    left:5%;
+    height:200px;
+    margin:2px;
+
+}
+
+#second_character {
+    width: 150px;
+    /* padding: 80px; */
+    border: 2px dotted black;
+    margin:2px;
+    /* position: absolute; */
+    left:25%;
+    height:200px
+
+}
+
+#third_character {
+    width: 150px;
+    /* padding: 80px; */
+    border: 2px dotted black;
+    margin:2px;
+    /* position: absolute; */
+    left:40%;
+    height:200px
+    
+}
+
+.border_div{
+    border-color: rgb(198, 198, 231);
+}
+
+.input_questions {
+}
